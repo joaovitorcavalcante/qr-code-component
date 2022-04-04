@@ -55,4 +55,5 @@ body {
 
 .card__description {
   color: var(--description);
+  padding: 0 16px;
 }
