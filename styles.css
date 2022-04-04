@@ -28,22 +28,19 @@ body {
 
 .card {
   background-color: var(--background);
-  padding: 18px;
-  max-width: 360px;
+  padding: 16px;
+  max-width: 320px;
   margin: 0 1rem;
-}
-
-.card,
-.card__code {
-  border-radius: 17px;
+  border-radius: 20px;
 }
 
 .card__code {
   width: 100%;
+  border-radius: 10px;
 }
 
 .card__body {
-  padding: 22px 10px;
+  padding: 24px 0px 40px;
 }
 
 .card__title,
@@ -53,7 +50,7 @@ body {
 
 .card__title {
   color: var(--title);
-  padding-bottom: 15px;
+  padding-bottom: 16px;
 }
 
 .card__description {
